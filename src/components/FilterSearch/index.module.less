@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+
+  :global {
+    .ant-input-group.ant-input-group-compact {
+      display: inline-flex;
+      width: 400px;
+    }
+    .ant-select {
+      flex-shrink: 0;
+      width: 120px;
+    }
+  }
+}
+.label {
+  flex-shrink: 0;
+  margin-right: 10px;
+}
